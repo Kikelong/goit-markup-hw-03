@@ -1,0 +1,451 @@
+/* ------------------------------------------------------------------- */
+
+/*cuerpo*/
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: #E5E5E5;
+    
+        
+}
+
+/* ------------------------------------------------------------------- */
+
+/*atributos generales para las paginas*/
+
+/* pagina principal index*/
+
+/* .bodies-pages{
+    width: 1600px;
+    margin: 40px auto;
+    background-color: white;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+} */
+
+/* pagina estudio */
+
+/* pagina portafolio */
+
+/* pagina contactos */
+
+/* ------------------------------------------------------------------- */
+
+/*inicio de cabecera*/
+.header{
+    /* display: flex; */
+    width: 1600px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: -20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav{
+    /* display: flex; */
+    
+}
+
+li{
+    list-style: none;
+    text-decoration:none;
+    }
+
+.ul-header{
+    /* display: flex; */
+    
+}
+
+.logo-header{
+    text-decoration:none;
+    /* display: flex;
+    margin-left: 215px;
+    width: 145px; */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    /* line-height: 6rem; */
+    color: #2196F3;
+}
+
+.estudio-header{
+    text-decoration:none;
+    /* margin-left: 93px;
+    width: 49px; */
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    /* line-height: 5em ; */
+    color: #212121;
+}
+
+.estudio-header-index{
+    text-decoration:none;
+    /* margin-left: 93px;
+    width: 49px; */
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    /* line-height: 5em ; */
+    color: #2196F3;
+}
+
+.estudio-header:hover{
+    color: #2196F3;
+    font-weight: 700;
+}
+
+.portafolio-header{
+    text-decoration:none;
+    /* margin-left: 50px;
+    width: 49px; */
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    /* line-height: 5em ; */
+    color: #212121;
+}
+
+.portafolio-header-portafolio{
+    text-decoration:none;
+    /* margin-left: 50px;
+    width: 49px; */
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    /* line-height: 5em ; */
+    color: #2196F3;
+}
+
+.portafolio-header:hover{
+    color:#2196F3;
+    font-weight: 700;
+}
+
+.contactos-header{
+    text-decoration:none;
+    /* margin-left: 50px;
+    width: 49px; */
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    /* line-height: 5em ; */
+    color: #212121;
+}
+
+.contactos-header:hover{
+    color:#2196F3;
+    font-weight: 700;
+}
+
+.correo-header{
+    text-decoration:none;
+    /* margin-left: 344px;
+    width: 49px; */
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    /* line-height: 5em ; */
+    color: #212121;
+}
+
+.correo-header:hover{
+    color:#2196F3;
+    font-weight: 700;
+}
+
+.numero-header{
+    text-decoration:none;
+    /* margin-left: 50px;
+    width: 49px; */
+    font-weight: 500;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 14px;
+    /* line-height: 5em ; */
+    color: #212121;
+}
+
+.numero-header:hover{
+    color:#2196F3;
+    font-weight: 700;
+}
+
+/*final de cabecera*/
+
+/* ------------------------------------------------------------------- */
+
+/*inicio de main page-index*/
+
+/*poster main*/
+.poster-index{
+    /* width: 1600px;
+    height: 600px; */
+    background-color: #2F303A;
+}
+
+/* .section-afterbutton{
+    margin-top: 4%;
+} */
+
+.titulo-poster-index-1{
+    color: #FFFFFF;
+    text-align: center;
+    /* height: 120px;
+    top: 280px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 10em; */
+}
+
+/* .titulo-poster-index-2{
+    color: #FFFFFF;
+    text-align: center;
+    height: 120px;
+    top: 280px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 5.5em;
+    } */
+
+.boton{
+    cursor: pointer;
+    /* display: flex; */
+    /* flex-direction: row;
+    justify-content: center; */
+    /* align-items: center; */
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: #2196f3;
+    width: 240px;
+    height: 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    /* flex-grow: 0;
+    margin-left: 681px;
+    margin-top: 55px; */
+
+}
+
+.ul-main-index{
+    /* display: flex; */
+}
+
+.section-afterbutton{
+
+}
+
+/* .titulo-caracteristicas-trabajo{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+
+} */
+
+/* .caracteristicas-trabajo{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+
+padding-right: 20%;
+} */
+
+/* .box-work{
+
+
+} */
+
+/* .subtituloh2{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin-top: 4%;
+} */
+
+/* .ul-images-work{
+display: flex;
+justify-content: space-evenly;
+margin-bottom: 5%;
+} */
+
+.box-worker{
+    background: #F5F4FA;
+    /* padding-top: 10px; */
+
+}
+
+/* .ul-images-worker{
+    display: flex;
+    justify-content: space-around;
+    
+} */
+
+.li-worker{
+    background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+/* 
+    margin-bottom: 6%;
+    text-align: center; */
+}
+
+.nameworkerh3{
+font-family: 'Roboto';
+font-style: normal;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+
+}
+
+.description-worker{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+/* margin-bottom: 10%; */
+}
+
+
+/* final de main index*/
+
+
+/*footer*/
+
+footer{
+background: #2F303A;
+padding: 2%;
+}
+
+.logo-footer{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+/* line-height: 31px; */
+letter-spacing: 0.03em;
+color: #2196F3;
+text-decoration: none;
+/* margin-left: 10%; */
+}
+
+address{
+font-size: 14px;
+/* margin-left: 10%; */
+color: #FFFFFF;
+}
+
+.ul-address{
+        /* margin-left: 7.5%; */
+        color: #ffffff;
+}
+
+.number-email{
+    text-decoration: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: rgba(255, 255, 255, 0.6);
+}
+
+/* ------------------------------------------------------------------- */
+
+/* inicio de main de portafolio */
+
+
+
+/* .ul-menu-portafolio{
+    display: flex;
+    justify-content: center;
+
+} */
+
+/* INICIO DE BOTONES PORTAFOLIO */
+
+.botones-portafolio{
+    cursor: pointer;
+font-family: "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    color: #212121;
+    line-height: 1.6;
+    border: none;
+    border-radius: 4px;
+}
+
+.botones-portafolio:hover{
+ /* margin: 0.5%; */
+ font-family: "Roboto";
+ font-weight: 500;
+    font-size: 16px;
+ background: #2196F3;
+border-radius: 4px;
+padding: 0 1% ;
+color: #ffffff;
+}
+
+/* FINAL DE BOTONES PORTAFOLIO */
+
+.ul-images-services{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly; */
+    
+}
+
+.li-services{
+        background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
+    /* margin-bottom: 6%; */
+    /* text-align: center; */
+
+}
+
+/* final de main de portafolio */
+
+/* footer de portafolio */
+
+.ul-footer{
+    /* display: flex; */
+}
+
+.li-footter{
+    margin-left: 1000px;
+}
+
