@@ -14,34 +14,28 @@ body {
 
 /* pagina principal index*/
 
-/* .bodies-pages{
+.bodies-pages{
     width: 1600px;
     margin: 40px auto;
     background-color: white;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-} */
+}
 
-/* pagina estudio */
-
-/* pagina portafolio */
-
-/* pagina contactos */
 
 /* ------------------------------------------------------------------- */
 
 /*inicio de cabecera*/
-.header{
-    /* display: flex; */
+header{
+    display: flex;
     width: 1600px;
-    height: 100px;
-    left: 0px;
-    top: 0px;
-    margin-bottom: -20px;
-    background-color: rgb(255, 255, 255);
+    height: 80px;
+    /* margin-bottom: -20px; */
+    background-color: #ffffff;
+    margin-bottom: 1%;
 }
 
-.nav{
-    /* display: flex; */
+nav{
+    display: flex;
     
 }
 
@@ -51,44 +45,43 @@ li{
     }
 
 .ul-header{
-    /* display: flex; */
+    display: flex;
     
 }
 
 .logo-header{
     text-decoration:none;
-    /* display: flex;
     margin-left: 215px;
-    width: 145px; */
+    width: 145px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    /* line-height: 6rem; */
+    line-height: 6rem;
     color: #2196F3;
 }
 
 .estudio-header{
     text-decoration:none;
-    /* margin-left: 93px;
-    width: 49px; */
+    margin-left: 93px;
+    width: 49px;
     font-weight: 500;
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
-    /* line-height: 5em ; */
+    line-height: 5em ;
     color: #212121;
 }
 
 .estudio-header-index{
     text-decoration:none;
-    /* margin-left: 93px;
-    width: 49px; */
+    margin-left: 93px;
+    width: 49px;
     font-weight: 500;
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
-    /* line-height: 5em ; */
+    line-height: 5em ;
     color: #2196F3;
 }
 
@@ -99,25 +92,25 @@ li{
 
 .portafolio-header{
     text-decoration:none;
-    /* margin-left: 50px;
-    width: 49px; */
+    margin-left: 50px;
+    width: 49px;
     font-weight: 500;
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
-    /* line-height: 5em ; */
+    line-height: 5em ;
     color: #212121;
 }
 
 .portafolio-header-portafolio{
     text-decoration:none;
-    /* margin-left: 50px;
-    width: 49px; */
+    margin-left: 50px;
+    width: 49px;
     font-weight: 500;
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
-    /* line-height: 5em ; */
+    line-height: 5em ;
     color: #2196F3;
 }
 
@@ -128,13 +121,13 @@ li{
 
 .contactos-header{
     text-decoration:none;
-    /* margin-left: 50px;
-    width: 49px; */
+    margin-left: 50px;
+    width: 49px;
     font-weight: 500;
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
-    /* line-height: 5em ; */
+    line-height: 5em ;
     color: #212121;
 }
 
@@ -145,13 +138,13 @@ li{
 
 .correo-header{
     text-decoration:none;
-    /* margin-left: 344px;
-    width: 49px; */
+    margin-left: 344px;
+    width: 49px;
     font-weight: 500;
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
-    /* line-height: 5em ; */
+    line-height: 5em ;
     color: #212121;
 }
 
@@ -162,13 +155,13 @@ li{
 
 .numero-header{
     text-decoration:none;
-    /* margin-left: 50px;
-    width: 49px; */
+    margin-left: 50px;
+    width: 49px;
     font-weight: 500;
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
-    /* line-height: 5em ; */
+    line-height: 5em ;
     color: #212121;
 }
 
@@ -181,75 +174,71 @@ li{
 
 /* ------------------------------------------------------------------- */
 
-/*inicio de main page-index*/
+/* ----------- SECCION MAIN PAGE-INDEX*/
 
-/*poster main*/
+/* ------------SECCION POSTER PRINCIPAL*/
+
 .poster-index{
-    /* width: 1600px;
-    height: 600px; */
+    /* margin-top: 1%; */
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-bottom: 4%;
 }
 
-/* .section-afterbutton{
-    margin-top: 4%;
-} */
+.contenido-poster-index{
+    width: 1200px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 .titulo-poster-index-1{
-    color: #FFFFFF;
-    text-align: center;
-    /* height: 120px;
-    top: 280px;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 10em; */
-}
-
-/* .titulo-poster-index-2{
     color: #FFFFFF;
     text-align: center;
     height: 120px;
     top: 280px;
     font-weight: 900;
     font-size: 44px;
-    line-height: 5.5em;
-    } */
+}
 
 .boton{
     cursor: pointer;
-    /* display: flex; */
-    /* flex-direction: row;
-    justify-content: center; */
-    /* align-items: center; */
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    border-color: #2196f3;
-    width: 240px;
-    height: 50px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    /* flex-grow: 0;
-    margin-left: 681px;
-    margin-top: 55px; */
+    border-color: #2196f3;    
+    justify-content: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+    margin-left: 470px;
+  padding: 10px 32px;
+  line-height: 1.8;
 
 }
 
-.ul-main-index{
-    /* display: flex; */
+
+
+/* --------------SECCION AFTER BUTTON */
+
+.section-after-button{
+    padding: 0px 150px;
 }
 
-.section-afterbutton{
+.ul-section-after-button{
+    display: flex;
+margin: auto;
 
 }
 
-/* .titulo-caracteristicas-trabajo{
+.li-section-after-button{
+    margin-right: 3%;
+}
+
+.titulo-caracteristicas-trabajo{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -259,9 +248,9 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
 
-} */
+}
 
-/* .caracteristicas-trabajo{
+.caracteristicas-trabajo{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -269,16 +258,18 @@ font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
 color: #757575;
+width: 270px;
 
-padding-right: 20%;
-} */
-
-/* .box-work{
+}
 
 
-} */
+/* -----------------SECCION TRABAJOS */
 
-/* .subtituloh2{
+.box-work{
+        margin-bottom: 6%;
+}
+
+.subtituloh2{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -288,25 +279,37 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 margin-top: 4%;
-} */
+margin-bottom: 3%;
+}
 
-/* .ul-images-work{
-display: flex;
-justify-content: space-evenly;
-margin-bottom: 5%;
-} */
+.ul-images-work{
+    display: flex;
+    justify-content: center;
+}
 
-.box-worker{
-    background: #F5F4FA;
-    /* padding-top: 10px; */
+.images-work{
+    width: 373.16px;
+    height: 323.7px;
+    padding-right: 20px;
+    padding-left: 0px;
 
 }
 
-/* .ul-images-worker{
+
+/* -----------------SECCION TRABAJADORES */
+
+.box-worker{
+    background: #F5F4FA;
+
+    padding: 3% 10%;
+
+}
+
+.ul-images-worker{
     display: flex;
     justify-content: space-around;
     
-} */
+}
 
 .li-worker{
     background: #FFFFFF;
@@ -339,14 +342,19 @@ color: #757575;
 }
 
 
-/* final de main index*/
+/* ------------------final de main index*/
 
 
-/*footer*/
+/* ------------------footer*/
 
 footer{
 background: #2F303A;
-padding: 2%;
+padding: 4%;
+}
+
+.section-footer{
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .logo-footer{
@@ -362,13 +370,18 @@ text-decoration: none;
 }
 
 address{
-font-size: 14px;
+font-style: normal;
 /* margin-left: 10%; */
 color: #FFFFFF;
+line-height: 24px;
+letter-spacing: 0.03em;
 }
 
 .ul-address{
-        /* margin-left: 7.5%; */
+list-style: none;
+    padding: 0%;
+    width: 231px;
+
         color: #ffffff;
 }
 
