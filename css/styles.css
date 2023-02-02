@@ -1,18 +1,20 @@
 /* ------------------------------------------------------------------- */
 
-/*cuerpo*/
+:root {
+    --brand-color: #2196f3;
+    --text-color: #212121;
+}
+
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    background-color: #E5E5E5;
-    
-        
+    background-color: #E5E5E5;       
 }
 
 /* ------------------------------------------------------------------- */
 
 /*atributos generales para las paginas*/
 
-/* pagina principal index*/
+
 
 .bodies-pages{
     width: 1600px;
@@ -21,22 +23,21 @@ body {
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-
 /* ------------------------------------------------------------------- */
 
-/*inicio de cabecera*/
+/*HEADER*/
+
 header{
     display: flex;
     width: 1600px;
     height: 80px;
     /* margin-bottom: -20px; */
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
     margin-bottom: 1%;
 }
 
-nav{
-    display: flex;
-    
+.header-portafolio{
+    border-bottom: 1px solid #ECECEC;
 }
 
 li{
@@ -57,9 +58,13 @@ li{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 6rem;
-    color: #2196F3;
+    color: var(--brand-color);
+    line-height: 370%;
+    /* line-height: 6rem; */
 }
+
+
+/* PESTAÑAS ESTUDIO */
 
 .estudio-header{
     text-decoration:none;
@@ -69,55 +74,78 @@ li{
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
-    line-height: 5em ;
-    color: #212121;
+    /* line-height: 5em ; */
+    color: var(--text-color);
+    line-height: 500%;
+}
+
+.estudio-header:focus{
+    color:var(--brand-color);
+    line-height: 500%;
+}
+
+.estudio-header:hover{
+    color: var(--brand-color);
+    font-weight: 700;
 }
 
 .estudio-header-index{
     text-decoration:none;
     margin-left: 93px;
-    width: 49px;
+    /* width: 49px; */
     font-weight: 500;
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
-    line-height: 5em ;
-    color: #2196F3;
+    /* line-height: 5em ; */
+    color: var(--brand-color);
+    line-height: 500%;
 }
 
-.estudio-header:hover{
-    color: #2196F3;
-    font-weight: 700;
-}
+
+
+/* PESTAÑAS PORTAFOLIO */
 
 .portafolio-header{
     text-decoration:none;
     margin-left: 50px;
-    width: 49px;
+    /* width: 49px; */
     font-weight: 500;
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
-    line-height: 5em ;
-    color: #212121;
+    /* line-height: 5em ; */
+    color: var(--text-color);
+    line-height: 500%;
+}
+
+.portafolio-header:focus{
+    color: var(--brand-color);
+    line-height: 500%;
+}
+
+.portafolio-header:hover{
+    color:var(--brand-color);
+    font-weight: 700;
+    line-height: 500%;
 }
 
 .portafolio-header-portafolio{
     text-decoration:none;
     margin-left: 50px;
-    width: 49px;
+    /* width: 49px; */
     font-weight: 500;
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
-    line-height: 5em ;
-    color: #2196F3;
+    /* line-height: 5em ; */
+    color: var(--brand-color);
+    line-height: 500%;
 }
 
-.portafolio-header:hover{
-    color:#2196F3;
-    font-weight: 700;
-}
+
+
+/* PESTAÑAS CONTACTOS */
 
 .contactos-header{
     text-decoration:none;
@@ -127,14 +155,24 @@ li{
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
-    line-height: 5em ;
-    color: #212121;
+    /* line-height: 5em ; */
+    color: var(--text-color);
+    line-height: 500%;
+}
+
+.contactos-header:focus{
+    color:var(--brand-color);
+    line-height: 500%;
+
 }
 
 .contactos-header:hover{
-    color:#2196F3;
+    color:var(--brand-color);
     font-weight: 700;
 }
+
+
+/* PESTAÑAS CORREO Y NUMERO */
 
 .correo-header{
     text-decoration:none;
@@ -144,12 +182,18 @@ li{
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
-    line-height: 5em ;
-    color: #212121;
+    /* line-height: 5em ; */
+    color: #757575;
+    line-height: 500%;
+}
+
+.correo-header:focus{
+    color:var(--brand-color);
+    line-height: 500%;
 }
 
 .correo-header:hover{
-    color:#2196F3;
+    color:var(--brand-color);
     font-weight: 700;
 }
 
@@ -161,112 +205,126 @@ li{
     font-family: 'Roboto';
     font-style: normal;
     font-size: 14px;
-    line-height: 5em ;
-    color: #212121;
+    /* line-height: 5em ; */
+    color: #757575;
+    line-height: 500%;
+}
+
+.numero-header:focus{
+    color:var(--brand-color);
+    line-height: 500%;
 }
 
 .numero-header:hover{
-    color:#2196F3;
+    color:var(--brand-color);
     font-weight: 700;
 }
 
-/*final de cabecera*/
+/*FIN HEADER*/
 
 /* ------------------------------------------------------------------- */
+
+/* PAGE INDEX*/
 
 /* ----------- SECCION MAIN PAGE-INDEX*/
 
 /* ------------SECCION POSTER PRINCIPAL*/
 
 .poster-index{
-    /* margin-top: 1%; */
     background-color: #2F303A;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    margin-bottom: 4%;
+    padding: 200px 0px;
+    /* margin-bottom: 4%; */
+    text-align: center;
 }
 
 .contenido-poster-index{
     width: 1200px;
     margin: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0px 15px;
 }
 
-.titulo-poster-index-1{
+.titulo-poster-index-h1{
     color: #FFFFFF;
-    text-align: center;
-    height: 120px;
-    top: 280px;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 900;
     font-size: 44px;
+    /* height: 120px;
+    top: 280px; */
+    line-height: 136%;
 }
 
 .boton{
     cursor: pointer;
-    font-weight: 700;
-    font-size: 16px;
-    color: #FFFFFF;
-    background: #2196F3;
+    background: var(--brand-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    border-color: #2196f3;    
-    justify-content: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-    margin-left: 470px;
-  padding: 10px 32px;
-  line-height: 1.8;
-
+    border-color: var(--brand-color);
+    padding: 10px 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    line-height: 1.8;
 }
 
-
-
-/* --------------SECCION AFTER BUTTON */
-
-.section-after-button{
-    padding: 0px 150px;
+.boton:focus{
+    color: #6fc3f5;
 }
 
-.ul-section-after-button{
+.boton:hover{
+    color: #6fc3f5;
+}
+
+/* --------------SECCION VALORES EMPRESARIALES */
+
+.section-valores-empresariales{
+    padding: 50px 150px;
+}
+
+.ul-section-valores-empresariales{
     display: flex;
-margin: auto;
-
+    margin: auto;
 }
 
-.li-section-after-button{
+.li-section-valores-empresariales{
     margin-right: 3%;
 }
 
-.titulo-caracteristicas-trabajo{
+.titulo-valores-empresariales{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
-
+color: var(--text-color);
+/* line-height: 0%; */
 }
 
-.caracteristicas-trabajo{
+.caracteristicas-valores-empresariales{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+/* line-height: 24px; */
 letter-spacing: 0.03em;
+/* padding-right: 20%; */
 color: #757575;
 width: 270px;
-
+line-height: 170%;
 }
 
 
 /* -----------------SECCION TRABAJOS */
 
 .box-work{
-        margin-bottom: 6%;
+    margin-bottom: 4%;
 }
 
 .subtituloh2{
@@ -277,47 +335,43 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
-margin-top: 4%;
-margin-bottom: 3%;
+color: var(--text-color);
+margin:50px 0px;
+line-height: 110%;
 }
 
+
 .ul-images-work{
-    display: flex;
-    justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .images-work{
     width: 373.16px;
     height: 323.7px;
-    padding-right: 20px;
-    padding-left: 0px;
-
+    padding: 0px 15px;
 }
 
 
 /* -----------------SECCION TRABAJADORES */
 
+
+
 .box-worker{
     background: #F5F4FA;
-
-    padding: 3% 10%;
-
+padding: 0.01% 10%;
+    padding-bottom: 5%;
 }
 
 .ul-images-worker{
     display: flex;
     justify-content: space-around;
-    
-}
+    }
 
 .li-worker{
     background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
-/* 
-    margin-bottom: 6%;
-    text-align: center; */
 }
 
 .nameworkerh3{
@@ -325,8 +379,8 @@ font-family: 'Roboto';
 font-style: normal;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
-
+color: var(--text-color);
+line-height: 110%;
 }
 
 .description-worker{
@@ -334,18 +388,16 @@ color: #212121;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 19px;
 text-align: center;
 letter-spacing: 0.03em;
 color: #757575;
 /* margin-bottom: 10%; */
+line-height: 110%;
 }
 
 
-/* ------------------final de main index*/
+/* ----------- SECCION FOOTER PAGE-INDEX*/
 
-
-/* ------------------footer*/
 
 footer{
 background: #2F303A;
@@ -362,11 +414,11 @@ font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-/* line-height: 31px; */
 letter-spacing: 0.03em;
-color: #2196F3;
+color: var(--brand-color);
 text-decoration: none;
 /* margin-left: 10%; */
+line-height: 110%;
 }
 
 address{
@@ -385,6 +437,7 @@ list-style: none;
         color: #ffffff;
 }
 
+
 .number-email{
     text-decoration: none;
     font-family: 'Roboto';
@@ -392,31 +445,45 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 color: rgba(255, 255, 255, 0.6);
+line-height: 170%;
+}
+
+.number-email:focus{
+    color:var(--brand-color);
+}
+
+.number-email:hover{
+    color:var(--brand-color);
 }
 
 /* ------------------------------------------------------------------- */
 
-/* inicio de main de portafolio */
+/* PAGE PORTAFOLIO*/
 
-
-
-/* .ul-menu-portafolio{
-    display: flex;
-    justify-content: center;
-
-} */
+/* MAIN PAGE PORTAFOLIO */
 
 /* INICIO DE BOTONES PORTAFOLIO */
+
+.ul-menu-portafolio{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.li-menu-portafolio{
+    margin: 50px 5px;
+}
 
 .botones-portafolio{
     cursor: pointer;
 font-family: "Roboto";
     font-weight: 500;
     font-size: 16px;
-    color: #212121;
+    color: var(--text-color);
     line-height: 1.6;
     border: none;
     border-radius: 4px;
+    padding: 6px 24px;
 }
 
 .botones-portafolio:hover{
@@ -424,41 +491,84 @@ font-family: "Roboto";
  font-family: "Roboto";
  font-weight: 500;
     font-size: 16px;
- background: #2196F3;
+ background: var(--brand-color);
 border-radius: 4px;
 padding: 0 1% ;
 color: #ffffff;
+padding: 6px 24px;
+}
+
+.botones-portafolio:focus{
+ /* margin: 0.5%; */
+ font-family: "Roboto";
+ font-weight: 500;
+    font-size: 16px;
+ background: var(--brand-color);
+border-radius: 4px;
+padding: 0 1% ;
+color: #ffffff;
+padding: 6px 24px;
+outline: none;
 }
 
 /* FINAL DE BOTONES PORTAFOLIO */
 
+/* INICIO DE TARJETAS INFORMATIVAS */
+
 .ul-images-services{
-    /* display: flex;
-    flex-wrap: wrap;
+    display: flex;
     justify-content: center;
-    justify-content: space-evenly; */
-    
+    flex-wrap: wrap;
+    padding: 0px;
+    /* width: 1260px; */
+    margin: 0px auto;
+    margin-bottom: 75px;
 }
 
 .li-services{
-        background: #FFFFFF;
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
-
-    /* margin-bottom: 6%; */
-    /* text-align: center; */
-
+    background: #FFFFFF;
+    margin: 15px 25px;
+    border: 1px solid #EEEEEE;
+    text-decoration: none;
 }
 
-/* final de main de portafolio */
-
-/* footer de portafolio */
-
-.ul-footer{
-    /* display: flex; */
+.li-services:hover{
+    cursor: pointer;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
 }
 
-.li-footter{
-    margin-left: 1000px;
+.li-services:focus{
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
 }
+
+.link-tarjeta-services{
+    text-decoration: none;
+}
+
+.link-tarjeta-services:focus{
+    outline: none;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+}
+
+h3{
+    color: #212121;
+    margin-left: 5%;
+}
+
+.image-description{
+    color: #757575;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+/* line-height: 30px; */
+letter-spacing: 0.03em;
+    margin-left: 5%;
+}
+
+/* FINAL DE TARJETAS INFORMATIVAS */
+
+/* FINAL MAIN PAGE PORTAFOLIO */
+
+/* FOOTER DE PORTAFOLIO */
 
