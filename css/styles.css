@@ -73,11 +73,12 @@ li{
 /*HEADER*/
 
 .container-header-index{
-    
-    /* width: 1600px; */
-    /* height: 80px; */
-    /* margin-bottom: -20px; */
-    /* margin-bottom: 1%; */
+    width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+
     border-bottom: 1px solid #ECECEC;
     justify-content: center; 
     background-color: rgb(255, 255, 255);
@@ -85,6 +86,12 @@ li{
 }
 
 .container-header-portafolio{
+    width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+
     border-bottom: 1px solid #ECECEC;
     justify-content: center;
     background-color: rgb(255, 255, 255);
@@ -319,6 +326,12 @@ li{
 .container-poster-index{
     /* width: 1200px; */
     /* margin: auto; */
+    width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+
     padding: 170px 0px;
     background-color: #2F303A;
     text-align: center;
@@ -362,8 +375,14 @@ li{
 /* --------------SECCION VALORES EMPRESARIALES */
 
 .container-valores-empresariales{
+    width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+    
     padding: 95px 0;
-    margin: 0;
+
 }
 
 .ul-valores-empresariales{
@@ -404,8 +423,12 @@ li{
 /* -----------------SECCION TRABAJOS */
 
 .container-work{
-    margin:0;
-    padding: 0;
+    width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+
     background-color: white;
 }
 
@@ -444,9 +467,14 @@ li{
 
 
 .container-worker{
+    width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+
     background: #F5F4FA; 
     padding: 94px 0;
-    margin: 0;
 }
 
 .titulo-worker{
@@ -516,9 +544,13 @@ li{
 /* ----------- SECCION FOOTER PAGE-INDEX*/
 
 .container-footer{
-    /* width: 1200px; */
+    width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+    
     background: #2F303A;
-    margin: 0;
     padding: 60px 215px;
 }
 
