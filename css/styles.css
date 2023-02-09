@@ -115,7 +115,7 @@ li{
 
 .nav-header{
     padding: 31px 0px;
-    margin: 0px 68px;
+    margin-left: 93px;
 }   
 
 .ul-header{
@@ -124,29 +124,33 @@ li{
     display: flex;    
 }
 
-.ul-header-correo-numero > .li-header-correo-numero:last-child {
-    margin-right: 0px;
-}
-
 .li-header{
     padding: 0;
-    margin: 0px 25px;
     list-style: none;
     text-decoration: none;
+    margin-right: 50px;
+}
+
+.ul-header > .li-header:last-child{
+    margin-right: 0;
 }
 
 .ul-header-correo-numero{
     margin: 0;
-    margin-left: 226px;
+    margin-left: 344px;
     padding: 31px 0px;
     display: flex;   
 }
 
 .li-header-correo-numero{
     padding: 0;
-    margin: 0px 25px;
+    margin-right: 50px;
     list-style: none;
     text-decoration: none;
+}
+
+.ul-header-correo-numero > .li-header-correo-numero:last-child {
+    margin-right: 0px;
 }
 
 /* PESTAÑAS ESTUDIO */
@@ -332,7 +336,7 @@ li{
 	margin-left: auto;
 	margin-right: auto;
 
-    padding: 170px 0px;
+    padding: 200px 0px;
     background-color: #2F303A;
     text-align: center;
     
@@ -345,7 +349,8 @@ li{
     font-weight: 900;
     font-size: 44px;
     line-height: 136%;
-    padding: 30px 0px; 
+    margin-bottom: 30px;
+    padding: 0; 
 }
 
 .boton{
@@ -365,7 +370,7 @@ li{
     flex: none;
     order: 0;
     line-height: 180%;
-    margin-bottom: 30px;
+    margin:0;
 }
 
 .boton:focus, .boton:hover{
@@ -387,14 +392,17 @@ li{
 
 .ul-valores-empresariales{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    /* justify-content: center; */
     margin: 0;
     padding: 0;
 }
 
 .li-valores-empresariales{
     padding: 0;
-    margin: 0 15px;
+    margin: 0;
+    flex-basis: calc((100% - 90px)/4);
 }
 
 .titulo-valores-empresariales{
@@ -428,7 +436,7 @@ li{
 	padding-right: 15px;
 	margin-left: auto;
 	margin-right: auto;
-
+    padding-bottom: 94px;
     background-color: white;
 }
 
@@ -448,17 +456,24 @@ li{
 
 .ul-images-work{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    gap: 23px;
+    /* justify-content: center; */
     margin:0;
     padding: 0;
+}
+
+.il-images-work{
+    flex-basis: calc((100% - 46px)/3);
+    margin: 0;
+    padding: 0 ;
 }
 
 .images-work{
     width: 373.16px;
     height: 323.7px;
-    padding: 0;
-    margin: 0px 15px;
-    margin-bottom: 94px;
+    margin: 0;
+    padding: 0 ;
 }
 
 
@@ -472,9 +487,9 @@ li{
 	padding-right: 15px;
 	margin-left: auto;
 	margin-right: auto;
-
     background: #F5F4FA; 
-    padding: 94px 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .titulo-worker{
@@ -493,23 +508,24 @@ li{
 
 .ul-images-worker{
     display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
     margin: 0;
     padding: 0;
-    justify-content: center;
 }
 
 .li-worker{
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    margin: 0;
     padding: 0;
-    margin-left: 37px;
+    margin: 0;
+    flex-basis: calc((100% - 69px)/3);
 }
 
-.ul-images-worker > .li-worker:first-child{
+/* .ul-images-worker > .li-worker:last-child{
     margin: 0;
-}
+} */
 
 .container-texto-worker{
     padding: 30px 0px;
@@ -540,6 +556,10 @@ li{
     padding: 0;
 }
 
+.images-worker{
+    padding: 0;
+    margin: 0;
+}
 
 /* ----------- SECCION FOOTER PAGE-INDEX*/
 
@@ -612,8 +632,12 @@ address{
 
 /* INICIO DE BOTONES PORTAFOLIO */
 .container-menu-portafolio{
-    padding: 0;
-    margin: 0;
+    width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+    
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -682,11 +706,14 @@ address{
     display: flex;
     justify-content: center; */
 
-    padding-bottom: 82px;
     width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+
+    padding-bottom: 82px;
+    
 }
 
 .ul-tarjetas-services{
