@@ -520,7 +520,7 @@ li{
     border-radius: 0px 0px 4px 4px;
     padding: 0;
     margin: 0;
-    flex-basis: calc((100% - 69px)/3);
+    flex-basis: calc((100% - 69px)/4);
 }
 
 /* .ul-images-worker > .li-worker:last-child{
@@ -719,12 +719,14 @@ address{
 .ul-tarjetas-services{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 30px;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+    /* column-gap: 30px;
     row-gap: 30px;
     margin: 0px auto;
     margin-bottom: 75px;
-    padding: 0;
+    padding: 0; */
 }
 
 .li-tarjetas-services{
@@ -733,7 +735,8 @@ address{
     text-decoration: none;
     padding: 0;
     margin: 0;
-    width: 370px;
+    flex-basis: calc((100% - 90px)/3);
+    /* width: 370px; */
     /* height: 404px; */
 }
 
